@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/" />
+  <remote name="engine" fetch="https://github.com/MovingBlocks/" />
+  <remote name="module" fetch="https://github.com/Terasology/" />
+  <default revision="develop" remote="origin" />
+
+  <!-- Engine -->
+
+  <project remote="engine" name="Terasology.git" path="Terasology" />
+
+  <!-- Libraries -->
+
+  <project remote="engine" name="TeraNUI.git" path="Terasology/libs/TeraNUI" revision="master" />
+  <project remote="engine" name="gestalt.git" path="Terasology/libs/gestalt" revision="release/v5.x" />
+  <project remote="engine" name="joml-ext.git" path="Terasology/libs/joml-ext" revision="main" />
+
+  <!-- Iota -->
+
+  <project remote="module" name="BiomesAPI.git" path="Terasology/modules/BiomesAPI" />
+  <project remote="module" name="CoreAdvancedAssets.git" path="Terasology/modules/CoreAdvancedAssets" />
+  <project remote="module" name="CoreAssets.git" path="Terasology/modules/CoreAssets" />
+  <project remote="module" name="CoreRendering.git" path="Terasology/modules/CoreRendering" />
+  <project remote="module" name="CoreSampleGameplay.git" path="Terasology/modules/CoreSampleGameplay" />
+  <project remote="module" name="CoreWorlds.git" path="Terasology/modules/CoreWorlds" />
+  <project remote="module" name="Drops.git" path="Terasology/modules/Drops" />
+  <project remote="module" name="Explosives.git" path="Terasology/modules/Explosives" />
+  <project remote="module" name="Furnishings.git" path="Terasology/modules/Furnishings" />
+  <project remote="module" name="Health.git" path="Terasology/modules/Health" />
+  <project remote="module" name="Inventory.git" path="Terasology/modules/Inventory" />
+
+  <!-- Omega -->
+
+  <project remote="module" name="AdditionalFruits.git" path="Terasology/modules/AdditionalFruits" />
+  <project remote="module" name="AdditionalItemPipes.git" path="Terasology/modules/AdditionalItemPipes" />
+  <project remote="module" name="AdditionalRails.git" path="Terasology/modules/AdditionalRails" />
+  <project remote="module" name="AdditionalVegetables.git" path="Terasology/modules/AdditionalVegetables" />
+  <project remote="module" name="AdvancedRails.git" path="Terasology/modules/AdvancedRails" />
+  <project remote="module" name="AdventureAssets.git" path="Terasology/modules/AdventureAssets" />
+  <project remote="module" name="Alchemy.git" path="Terasology/modules/Alchemy" />
+  <project remote="module" name="AlchemyPlantGenerator.git" path="Terasology/modules/AlchemyPlantGenerator" />
+  <project remote="module" name="AlterationEffects.git" path="Terasology/modules/AlterationEffects" />
+  <project remote="module" name="Anatomy.git" path="Terasology/modules/Anatomy" />
+  <project remote="module" name="AnotherWorld.git" path="Terasology/modules/AnotherWorld" />
+  <project remote="module" name="AnotherWorldPlants.git" path="Terasology/modules/AnotherWorldPlants" />
+  <project remote="module" name="Apiculture.git" path="Terasology/modules/Apiculture" />
+  <project remote="module" name="BasicCrafting.git" path="Terasology/modules/BasicCrafting" />
+  <project remote="module" name="Behaviors.git" path="Terasology/modules/Behaviors" />
+  <project remote="module" name="BlockDetector.git" path="Terasology/modules/BlockDetector" />
+  <project remote="module" name="BlockNetwork.git" path="Terasology/modules/BlockNetwork" />
+  <project remote="module" name="BlockPicker.git" path="Terasology/modules/BlockPicker" />
+  <project remote="module" name="Books.git" path="Terasology/modules/Books" />
+  <project remote="module" name="Breathing.git" path="Terasology/modules/Breathing" />
+  <project remote="module" name="CakeLie.git" path="Terasology/modules/CakeLie" />
+  <project remote="module" name="Caves.git" path="Terasology/modules/Caves" />
+  <project remote="module" name="ChangingBlocks.git" path="Terasology/modules/ChangingBlocks" />
+  <project remote="module" name="CheatsForAll.git" path="Terasology/modules/CheatsForAll" />
+  <project remote="module" name="ChiselBlocks.git" path="Terasology/modules/ChiselBlocks" />
+  <project remote="module" name="ChrisVolume1OST.git" path="Terasology/modules/ChrisVolume1OST" />
+  <project remote="module" name="ChrisVolume2OST.git" path="Terasology/modules/ChrisVolume2OST" />
+  <project remote="module" name="Cities.git" path="Terasology/modules/Cities" />
+  <project remote="module" name="ClimateConditions.git" path="Terasology/modules/ClimateConditions" />
+  <project remote="module" name="Climbables.git" path="Terasology/modules/Climbables" />
+  <project remote="module" name="CombatSystem.git" path="Terasology/modules/CombatSystem" />
+  <project remote="module" name="CommonWorld.git" path="Terasology/modules/CommonWorld" />
+  <project remote="module" name="Compass.git" path="Terasology/modules/Compass" />
+  <project remote="module" name="ComputerMonitors.git" path="Terasology/modules/ComputerMonitors" />
+  <project remote="module" name="Cooking.git" path="Terasology/modules/Cooking" />
+  <project remote="module" name="CustomOreGen.git" path="Terasology/modules/CustomOreGen" />
+  <project remote="module" name="DamagingBlocks.git" path="Terasology/modules/DamagingBlocks" />
+  <project remote="module" name="Dialogs.git" path="Terasology/modules/Dialogs" />
+  <project remote="module" name="Durability.git" path="Terasology/modules/Durability" />
+  <project remote="module" name="DynamicCities.git" path="Terasology/modules/DynamicCities" />
+  <project remote="module" name="Economy.git" path="Terasology/modules/Economy" />
+  <project remote="module" name="EdibleFlora.git" path="Terasology/modules/EdibleFlora" />
+  <project remote="module" name="EdibleSubstance.git" path="Terasology/modules/EdibleSubstance" />
+  <project remote="module" name="Equipment.git" path="Terasology/modules/Equipment" />
+  <project remote="module" name="EquipmentSmithing.git" path="Terasology/modules/EquipmentSmithing" />
+  <project remote="module" name="EventualSkills.git" path="Terasology/modules/EventualSkills" />
+  <project remote="module" name="Exoplanet.git" path="Terasology/modules/Exoplanet" />
+  <project remote="module" name="FallingBlocks.git" path="Terasology/modules/FallingBlocks" />
+  <project remote="module" name="Fences.git" path="Terasology/modules/Fences" />
+  <project remote="module" name="FlexiblePathfinding.git" path="Terasology/modules/FlexiblePathfinding" />
+  <project remote="module" name="FlowingLiquids.git" path="Terasology/modules/FlowingLiquids" />
+  <project remote="module" name="Fluid.git" path="Terasology/modules/Fluid" />
+  <project remote="module" name="FluidComputerIntegration.git" path="Terasology/modules/FluidComputerIntegration" />
+  <project remote="module" name="FlyingIslands.git" path="Terasology/modules/FlyingIslands" />
+  <project remote="module" name="FunnyBlocks.git" path="Terasology/modules/FunnyBlocks" />
+  <project remote="module" name="GenericRocks.git" path="Terasology/modules/GenericRocks" />
+  <project remote="module" name="Genome.git" path="Terasology/modules/Genome" />
+  <project remote="module" name="Gooey.git" path="Terasology/modules/Gooey" />
+  <project remote="module" name="GooeyDefence.git" path="Terasology/modules/GooeyDefence" />
+  <project remote="module" name="GooeysQuests.git" path="Terasology/modules/GooeysQuests" />
+  <project remote="module" name="GooKeeper.git" path="Terasology/modules/GooKeeper" />
+  <project remote="module" name="GrowingFlora.git" path="Terasology/modules/GrowingFlora" />
+  <project remote="module" name="HjerlHede.git" path="Terasology/modules/HjerlHede" />
+  <project remote="module" name="HumanoidCharacters.git" path="Terasology/modules/HumanoidCharacters" />
+  <project remote="module" name="Hunger.git" path="Terasology/modules/Hunger" />
+  <project remote="module" name="Inferno.git" path="Terasology/modules/Inferno" />
+  <project remote="module" name="InGameHelp.git" path="Terasology/modules/InGameHelp" />
+  <project remote="module" name="InGameHelpAPI.git" path="Terasology/modules/InGameHelpAPI" />
+  <project remote="module" name="IRLCorp.git" path="Terasology/modules/IRLCorp" />
+  <project remote="module" name="ItemPipes.git" path="Terasology/modules/ItemPipes" />
+  <project remote="module" name="ItemRendering.git" path="Terasology/modules/ItemRendering" />
+  <project remote="module" name="JoshariasSurvival.git" path="Terasology/modules/JoshariasSurvival" />
+  <project remote="module" name="Journal.git" path="Terasology/modules/Journal" />
+  <project remote="module" name="Kallisti.git" path="Terasology/modules/Kallisti" />
+  <project remote="module" name="KComputers.git" path="Terasology/modules/KComputers" />
+  <project remote="module" name="Lakes.git" path="Terasology/modules/Lakes" />
+  <project remote="module" name="LegacyMusic.git" path="Terasology/modules/LegacyMusic" />
+  <project remote="module" name="LightAndShadow.git" path="Terasology/modules/LightAndShadow" />
+  <project remote="module" name="LightAndShadowResources.git" path="Terasology/modules/LightAndShadowResources" />
+  <project remote="module" name="Lost.git" path="Terasology/modules/Lost" />
+  <project remote="module" name="Machines.git" path="Terasology/modules/Machines" />
+  <project remote="module" name="ManualLabor.git" path="Terasology/modules/ManualLabor" />
+  <project remote="module" name="ManualLaborEventualSkills.git" path="Terasology/modules/ManualLaborEventualSkills" />
+  <project remote="module" name="MarkovChains.git" path="Terasology/modules/MarkovChains" />
+  <project remote="module" name="MasterOfOreon.git" path="Terasology/modules/MasterOfOreon" />
+  <project remote="module" name="Maze.git" path="Terasology/modules/Maze" />
+  <project remote="module" name="MedievalCities.git" path="Terasology/modules/MedievalCities" />
+  <project remote="module" name="MetalRenegades.git" path="Terasology/modules/MetalRenegades" />
+  <project remote="module" name="Minerals.git" path="Terasology/modules/Minerals" />
+  <project remote="module" name="Minesweeper.git" path="Terasology/modules/Minesweeper" />
+  <project remote="module" name="Minimap.git" path="Terasology/modules/Minimap" />
+  <project remote="module" name="MobileBlocks.git" path="Terasology/modules/MobileBlocks" />
+  <project remote="module" name="ModularComputers.git" path="Terasology/modules/ModularComputers" />
+  <project remote="module" name="ModuleTestingEnvironment.git" path="Terasology/modules/ModuleTestingEnvironment" />
+  <project remote="module" name="MoreLights.git" path="Terasology/modules/MoreLights" />
+  <project remote="module" name="MultiBlock.git" path="Terasology/modules/MultiBlock" />
+  <project remote="module" name="MusicDirector.git" path="Terasology/modules/MusicDirector" />
+  <project remote="module" name="NameGenerator.git" path="Terasology/modules/NameGenerator" />
+  <project remote="module" name="Notifications.git" path="Terasology/modules/Notifications" />
+  <project remote="module" name="OreGeneration.git" path="Terasology/modules/OreGeneration" />
+  <project remote="module" name="Oreons.git" path="Terasology/modules/Oreons" />
+  <project remote="module" name="ParadIce.git" path="Terasology/modules/ParadIce" />
+  <project remote="module" name="Pathfinding.git" path="Terasology/modules/Pathfinding" />
+  <project remote="module" name="PhysicalStats.git" path="Terasology/modules/PhysicalStats" />
+  <project remote="module" name="PlantPack.git" path="Terasology/modules/PlantPack" />
+  <project remote="module" name="PolyWorld.git" path="Terasology/modules/PolyWorld" />
+  <project remote="module" name="Portals.git" path="Terasology/modules/Portals" />
+  <project remote="module" name="PotentialEnergyDevices.git" path="Terasology/modules/PotentialEnergyDevices" />
+  <project remote="module" name="Potions.git" path="Terasology/modules/Potions" />
+  <project remote="module" name="Projectile.git" path="Terasology/modules/Projectile" />
+  <project remote="module" name="Rails.git" path="Terasology/modules/Rails" />
+  <project remote="module" name="Sample.git" path="Terasology/modules/Sample" />
+  <project remote="module" name="Scenario.git" path="Terasology/modules/Scenario" />
+  <project remote="module" name="Seasons.git" path="Terasology/modules/Seasons" />
+  <project remote="module" name="SegmentedPaths.git" path="Terasology/modules/SegmentedPaths" />
+  <project remote="module" name="Sensors.git" path="Terasology/modules/Sensors" />
+  <project remote="module" name="ShatteredPlanes.git" path="Terasology/modules/ShatteredPlanes" />
+  <project remote="module" name="Signalling.git" path="Terasology/modules/Signalling" />
+  <project remote="module" name="SimpleFarming.git" path="Terasology/modules/SimpleFarming" />
+  <project remote="module" name="Smithing.git" path="Terasology/modules/Smithing" />
+  <project remote="module" name="Soils.git" path="Terasology/modules/Soils" />
+  <project remote="module" name="SoundyGenetics.git" path="Terasology/modules/SoundyGenetics" />
+  <project remote="module" name="Spawning.git" path="Terasology/modules/Spawning" />
+  <project remote="module" name="StaticCities.git" path="Terasology/modules/StaticCities" />
+  <project remote="module" name="StructuralResources.git" path="Terasology/modules/StructuralResources" />
+  <project remote="module" name="StructureTemplates.git" path="Terasology/modules/StructureTemplates" />
+  <project remote="module" name="SubstanceMatters.git" path="Terasology/modules/SubstanceMatters" />
+  <project remote="module" name="Tasks.git" path="Terasology/modules/Tasks" />
+  <project remote="module" name="Thirst.git" path="Terasology/modules/Thirst" />
+  <project remote="module" name="Valentines.git" path="Terasology/modules/Valentines" />
+  <project remote="module" name="WeatherManager.git" path="Terasology/modules/WeatherManager" />
+  <project remote="module" name="WildAnimals.git" path="Terasology/modules/WildAnimals" />
+  <project remote="module" name="WildAnimalsGenome.git" path="Terasology/modules/WildAnimalsGenome" />
+  <project remote="module" name="Workstation.git" path="Terasology/modules/Workstation" />
+  <project remote="module" name="WorkstationCrafting.git" path="Terasology/modules/WorkstationCrafting" />
+  <project remote="module" name="WorkstationInGameHelp.git" path="Terasology/modules/WorkstationInGameHelp" />
+  <project remote="module" name="WorldlyTooltip.git" path="Terasology/modules/WorldlyTooltip" />
+  <project remote="module" name="WorldlyTooltipAPI.git" path="Terasology/modules/WorldlyTooltipAPI" />
+  <project remote="module" name="Xmas.git" path="Terasology/modules/Xmas" />
+
+  <!-- Tutorials -->
+
+  <project remote="module" name="TutorialAssetSystem.git" path="Terasology/modules/TutorialAssetSystem" />
+  <project remote="module" name="TutorialBehaviors.git" path="Terasology/modules/TutorialBehaviors" />
+  <project remote="module" name="TutorialBlockFamily.git" path="Terasology/modules/TutorialBlockFamily" />
+  <project remote="module" name="TutorialDynamicCities.git" path="Terasology/modules/TutorialDynamicCities" />
+  <project remote="module" name="TutorialEntitySystem.git" path="Terasology/modules/TutorialEntitySystem" />
+  <project remote="module" name="TutorialEventsInteractions.git" path="Terasology/modules/TutorialEventsInteractions" />
+  <project remote="module" name="TutorialGroups.git" path="Terasology/modules/TutorialGroups" />
+  <project remote="module" name="TutorialI18n.git" path="Terasology/modules/TutorialI18n" />
+  <project remote="module" name="TutorialMinimalEngineDemo.git" path="Terasology/modules/TutorialMinimalEngineDemo" />
+  <project remote="module" name="TutorialMultiplayerExtras.git" path="Terasology/modules/TutorialMultiplayerExtras" />
+  <project remote="module" name="TutorialNui.git" path="Terasology/modules/TutorialNui" />
+  <project remote="module" name="TutorialParticleSystem.git" path="Terasology/modules/TutorialParticleSystem" />
+  <project remote="module" name="TutorialPathfinding.git" path="Terasology/modules/TutorialPathfinding" />
+  <project remote="module" name="TutorialProfiling.git" path="Terasology/modules/TutorialProfiling" />
+  <project remote="module" name="TutorialQuests.git" path="Terasology/modules/TutorialQuests" />
+  <project remote="module" name="TutorialSectors.git" path="Terasology/modules/TutorialSectors" />
+  <project remote="module" name="TutorialSnakeTournament.git" path="Terasology/modules/TutorialSnakeTournament" />
+  <project remote="module" name="TutorialWorldGeneration.git" path="Terasology/modules/TutorialWorldGeneration" />
+
+</manifest>

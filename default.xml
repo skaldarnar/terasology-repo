@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="origin" fetch="https://github.com/" />
+  <remote name="engine" fetch="https://github.com/MovingBlocks/" />
+  <remote name="module" fetch="https://github.com/Terasology/" />
+  <default revision="develop" remote="origin" />
+
+  <!-- Engine -->
+
+  <project remote="engine" name="Terasology.git" path="Terasology" />
+
+  <!-- Libraries -->
+
+  <project remote="engine" name="TeraNUI.git" path="Terasology/libs/TeraNUI" revision="master" />
+
+  <!-- Iota -->
+
+  <project remote="module" name="BiomesAPI.git" path="Terasology/modules/BiomesAPI" />
+  <project remote="module" name="CoreAdvancedAssets.git" path="Terasology/modules/CoreAdvancedAssets" />
+  <project remote="module" name="CoreAssets.git" path="Terasology/modules/CoreAssets" />
+  <project remote="module" name="CoreRendering.git" path="Terasology/modules/CoreRendering" />
+  <project remote="module" name="CoreSampleGameplay.git" path="Terasology/modules/CoreSampleGameplay" />
+  <project remote="module" name="CoreWorlds.git" path="Terasology/modules/CoreWorlds" />
+  <project remote="module" name="Drops.git" path="Terasology/modules/Drops" />
+  <project remote="module" name="Explosives.git" path="Terasology/modules/Explosives" />
+  <project remote="module" name="Furnishings.git" path="Terasology/modules/Furnishings" />
+  <project remote="module" name="Health.git" path="Terasology/modules/Health" />
+  <project remote="module" name="Inventory.git" path="Terasology/modules/Inventory" />
+
+  <!-- Omega -->
+
+  <project remote="module" name="ModuleTestingEnvironment.git" path="Terasology/modules/ModuleTestingEnvironment" />
+
+</manifest>

@@ -173,23 +173,23 @@
 
   <!-- Tutorials -->
 
-  <project remote="module" name="TutorialAssetSystem.git" path="Terasology/modules/TutorialAssetSystem" />
-  <project remote="module" name="TutorialBehaviors.git" path="Terasology/modules/TutorialBehaviors" />
-  <project remote="module" name="TutorialBlockFamily.git" path="Terasology/modules/TutorialBlockFamily" />
-  <project remote="module" name="TutorialDynamicCities.git" path="Terasology/modules/TutorialDynamicCities" />
-  <project remote="module" name="TutorialEntitySystem.git" path="Terasology/modules/TutorialEntitySystem" />
-  <project remote="module" name="TutorialEventsInteractions.git" path="Terasology/modules/TutorialEventsInteractions" />
-  <project remote="module" name="TutorialGroups.git" path="Terasology/modules/TutorialGroups" />
-  <project remote="module" name="TutorialI18n.git" path="Terasology/modules/TutorialI18n" />
+  <project remote="module" name="TutorialAssetSystem.git" path="Terasology/modules/TutorialAssetSystem" revision="master" />
+  <project remote="module" name="TutorialBehaviors.git" path="Terasology/modules/TutorialBehaviors" revision="master" />
+  <project remote="module" name="TutorialBlockFamily.git" path="Terasology/modules/TutorialBlockFamily" revision="master" />
+  <project remote="module" name="TutorialDynamicCities.git" path="Terasology/modules/TutorialDynamicCities" revision="master" />
+  <project remote="module" name="TutorialEntitySystem.git" path="Terasology/modules/TutorialEntitySystem" revision="master" />
+  <project remote="module" name="TutorialEventsInteractions.git" path="Terasology/modules/TutorialEventsInteractions" revision="master" />
+  <project remote="module" name="TutorialGroups.git" path="Terasology/modules/TutorialGroups" revision="master" />
+  <project remote="module" name="TutorialI18n.git" path="Terasology/modules/TutorialI18n" revision="master" />
   <project remote="module" name="TutorialMinimalEngineDemo.git" path="Terasology/modules/TutorialMinimalEngineDemo" />
-  <project remote="module" name="TutorialMultiplayerExtras.git" path="Terasology/modules/TutorialMultiplayerExtras" />
-  <project remote="module" name="TutorialNui.git" path="Terasology/modules/TutorialNui" />
-  <project remote="module" name="TutorialParticleSystem.git" path="Terasology/modules/TutorialParticleSystem" />
-  <project remote="module" name="TutorialPathfinding.git" path="Terasology/modules/TutorialPathfinding" />
-  <project remote="module" name="TutorialProfiling.git" path="Terasology/modules/TutorialProfiling" />
+  <project remote="module" name="TutorialMultiplayerExtras.git" path="Terasology/modules/TutorialMultiplayerExtras" revision="master" />
+  <project remote="module" name="TutorialNui.git" path="Terasology/modules/TutorialNui" revision="master" />
+  <project remote="module" name="TutorialParticleSystem.git" path="Terasology/modules/TutorialParticleSystem" revision="master" />
+  <project remote="module" name="TutorialPathfinding.git" path="Terasology/modules/TutorialPathfinding" revision="topic/Worldgeneration" />
+  <project remote="module" name="TutorialProfiling.git" path="Terasology/modules/TutorialProfiling" revision="master" />
   <project remote="module" name="TutorialQuests.git" path="Terasology/modules/TutorialQuests" />
-  <project remote="module" name="TutorialSectors.git" path="Terasology/modules/TutorialSectors" />
-  <project remote="module" name="TutorialSnakeTournament.git" path="Terasology/modules/TutorialSnakeTournament" />
-  <project remote="module" name="TutorialWorldGeneration.git" path="Terasology/modules/TutorialWorldGeneration" />
+  <project remote="module" name="TutorialSectors.git" path="Terasology/modules/TutorialSectors" revision="master" />
+  <project remote="module" name="TutorialSnakeTournament.git" path="Terasology/modules/TutorialSnakeTournament" revision="master" />
+  <project remote="module" name="TutorialWorldGeneration.git" path="Terasology/modules/TutorialWorldGeneration" revision="master" />
 
 </manifest>
